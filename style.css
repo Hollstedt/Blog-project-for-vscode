@@ -9,9 +9,9 @@ main .blog-box-container {
   justify-content: flex-start;
   align-items: flex-start;
   border: 1px solid black;
-  box-shadow: 3px 3px 3px #000;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
   flex-direction: column;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: hsl(0, 0%, 100%);
   padding: 24px;
   width: -moz-fit-content;
@@ -24,7 +24,7 @@ main .blog-box-container .image-box {
   margin-bottom: 24px;
 }
 main .blog-box-container .image-box svg {
-  border-radius: 10px;
+  border-radius: 5px;
   height: 201px;
 }
 main .blog-box-container .text-box {
@@ -32,7 +32,7 @@ main .blog-box-container .text-box {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  border-radius: 10px;
+  border-radius: 5px;
   width: 336px;
   height: 194px;
 }
@@ -53,6 +53,7 @@ main .blog-box-container .text-box .header-text {
   margin-bottom: 12px;
 }
 main .blog-box-container .text-box .p-text {
+  font-weight: 300;
   color: hsl(0, 0%, 42%);
 }
 main .blog-box-container .author-box {
