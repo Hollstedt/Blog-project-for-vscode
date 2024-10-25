@@ -1,0 +1,79 @@
+
+main {
+    @include flexCenterCenter();
+    height: 100vh;
+    
+    .blog-box-container {
+        @include flexCenterCenter($justify: flex-start, $align: flex-start);
+        @include border();
+        @include box-shadow();
+        flex-direction: column;
+        border-radius: 10px;
+        background-color: $colorWhite;
+        padding: 24px;
+        width: fit-content;
+        height: fit-content;
+
+        .image-box {
+            height: 201px;
+            margin-bottom: 24px;
+            
+            svg {
+                border-radius: 10px;
+                height: 201px;
+            }
+        }
+
+        .text-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            border-radius: 10px;
+            width: 336px;
+            height: 194px;
+
+            .learning-icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 82px;
+                height: 29px;
+                background-color: $colorYellow;
+                border-radius: 4px;
+                margin-bottom: 12px;
+            }
+
+            .published-text {
+                margin-bottom: 12px;
+            }
+
+            .header-text {
+                margin-bottom: 12px;
+            }
+
+            .p-text {
+                color: $colorGrayLight;
+            }
+        }
+
+        .author-box {
+            display: flex;
+            flex-direction: row;
+            margin-top: 24px;
+            width: 129px;
+            height: 32px;
+
+            img {
+                fit-content: cover;
+                width: 32px;
+                border-radius: 50%;
+            }
+
+            p {
+                margin-left: 12px;
+                align-self: center;
+            }
+        }
+    }
+}

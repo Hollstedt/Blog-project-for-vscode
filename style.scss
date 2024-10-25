@@ -1,0 +1,53 @@
+@import "./partials/variables.scss";
+@import "./partials/mixin.scss";
+@import "./partials/media-query.scss";
+@import "./partials/main.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100dvh;
+    font-family: 'Figtree', sans-serif;
+    background-color: $colorYellow;
+}
+
+p {
+    font-size: 16px;
+}
+
+.m14 {
+    font-size: 14px;
+    font-weight: medium;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+
+.m16 {
+    font-size: 16px;
+    font-weight: medium;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+
+.eb14 {
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 24px;
+    font-weight: extrabold;
+    line-height: 150%;
+    letter-spacing: 0;
+}

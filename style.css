@@ -1,0 +1,122 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main .blog-box-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px #000;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 24px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+main .blog-box-container .image-box {
+  height: 201px;
+  margin-bottom: 24px;
+}
+main .blog-box-container .image-box svg {
+  border-radius: 10px;
+  height: 201px;
+}
+main .blog-box-container .text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 10px;
+  width: 336px;
+  height: 194px;
+}
+main .blog-box-container .text-box .learning-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 82px;
+  height: 29px;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+main .blog-box-container .text-box .published-text {
+  margin-bottom: 12px;
+}
+main .blog-box-container .text-box .header-text {
+  margin-bottom: 12px;
+}
+main .blog-box-container .text-box .p-text {
+  color: hsl(0, 0%, 42%);
+}
+main .blog-box-container .author-box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
+  width: 129px;
+  height: 32px;
+}
+main .blog-box-container .author-box img {
+  fit-content: cover;
+  width: 32px;
+  border-radius: 50%;
+}
+main .blog-box-container .author-box p {
+  margin-left: 12px;
+  align-self: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100dvh;
+  font-family: "Figtree", sans-serif;
+  background-color: hsl(47, 88%, 63%);
+}
+
+p {
+  font-size: 16px;
+}
+
+.m14 {
+  font-size: 14px;
+  font-weight: medium;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.m16 {
+  font-size: 16px;
+  font-weight: medium;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.eb14 {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 24px;
+  font-weight: extrabold;
+  line-height: 150%;
+  letter-spacing: 0;
+}/*# sourceMappingURL=style.css.map */
