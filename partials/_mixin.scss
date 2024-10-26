@@ -3,7 +3,7 @@
 }
 
 @mixin box-shadow {
-    box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.75)
+    box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75)
 }
 
 @mixin flexCenterCenter($justify: center, $align: center) {
