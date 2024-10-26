@@ -24,7 +24,7 @@ main .blog-box-container .image-box {
   margin-bottom: 24px;
 }
 main .blog-box-container .image-box svg {
-  border-radius: 5px;
+  border-radius: 10px;
   height: 201px;
 }
 main .blog-box-container .text-box {
